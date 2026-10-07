@@ -1,0 +1,157 @@
+{
+  "fallbackTelegramName": "bạn",
+  "start": {
+    "message": [
+      "🌅 CHÀO MỪNG BẠN ĐẾN VỚI BOT CÔNG THỨC BCR KJC 2026",
+      "————————————————-",
+      "📎 HỖ TRỢ PHÂN TÍCH KẾT QUẢ VÁN BÀI CHÍNH XÁC 100% . CAM KẾT BẢO MẬT THÔNG TIN NGƯỜI CHƠI . SỬ DỤNG CÔNG CỤ CẦN LÀM THEO HƯỚNG DẪN CỦA ĐỘI NGŨ ADMIN BÊN MÌNH TRÁNH RỦI RO"
+    ],
+    "buttons": {
+      "acceptTerms": "Đồng ý",
+      "declineTerms": "Từ chối"
+    }
+  },
+  "acceptTerms": {
+    "message": [
+      "Xin chào {telegramName}",
+      "━━━━━━━━━━━━━━━━",
+      "📢 Vui lòng đăng nhập vào để được sử dụng"
+    ],
+    "buttons": {
+      "login": "Đăng nhập",
+      "contactAdmin": "Liên hệ admin"
+    }
+  },
+  "declineTerms": {
+    "message": ["❌ BẠN ĐÃ TỪ CHỐI", "VUI LÒNG LIÊN HỆ ADMIN ĐỂ ĐƯỢC HƯỚNG DẪN"]
+  },
+  "login": {
+    "message": [
+      "✏ VUI LÒNG NHẬP KEY HOẶC KEY KÈM PIN",
+      "━━━━━━━━━━━━━━━━━━━━",
+      "Ví dụ: KEY",
+      "Ví dụ KEY PIN",
+      "━━━━━━━━━━━━━━━━━━━━",
+      "❌ NẾU CHƯA CÓ VUI LÒNG LIÊN HỆ ADMIN CẤP"
+    ],
+    "successMessage": [
+      "✔ ĐĂNG NHẬP THÀNH CÔNG",
+      "━━━━━━━━━━━━━━━━━━━━",
+      "🟠Tên tài khoản : {accountName}",
+      "🟠 Số dư : {balance} xu",
+      "━━━━━━━━━━━━━━━━━━━━",
+      " "
+    ],
+    "invalidMessage": [
+      "❌ TÀI KHOẢN KHÔNG TỒN TẠI, NẾU CHƯA CÓ VUI LÒNG LIÊN HỆ ADMIN CẤP ❌"
+    ],
+    "buttons": {
+      "contactAdmin": "Liên hệ admin",
+      "choosePreviousResult": "Kiểm tra kết quả"
+    },
+    "listButton": {
+      "table": [
+        ["BÀN 1", "BÀN 2", "BÀN 3"],
+        ["BÀN 4", "BÀN 5", "BÀN 6"],
+        ["BÀN 7", "BÀN 8", "BÀN 9"],
+        ["C01", "C02", "C03"],
+        ["C04", "C05", "C06"],
+        ["C07", "C08", "C09"],
+        ["C10", "C11", "C12"],
+        ["C13", "C14", "C15"],
+        ["C16", "C17", "C18"],
+        ["C19", "C20", "C21"],
+        ["C22"]
+      ],
+      "con": [["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"], ["0"]],
+      "cai": [["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"], ["0"]]
+    }
+  },
+  "resultCheck": {
+    "inputPattern": "^/CON.*CAI.*$",
+    "outcomes": ["💠 CON", "💠 CÁI"],
+    "message": [
+      "✔️ ĐÃ HOÀN THÀNH ✔️",
+      "",
+      "📊 KẾT QUẢ KIỂM TRA",
+      "",
+      " {result}",
+      "───────────────",
+      "💰 Số dư: {balance} xu"
+    ],
+    "buttons": {
+      "checkAnotherResult": "Kiểm tra"
+    },
+    "insufficientBalanceMessage": [
+      "❌ SỐ DƯ KHÔNG ĐỦ",
+      "VUI LÒNG LIÊN HỆ ADMIN ĐỂ ĐƯỢC CẤP THÊM"
+    ]
+  },
+  "contactAdmin": {
+    "message": ["VUI LÒNG LIÊN HỆ ADMIN ĐỂ ĐƯỢC HƯỚNG DẪN"],
+    "url": "https://t.me/admin"
+  },
+  "admin": {
+    "panelMessage": [
+      "⚙️ ADMIN PANEL",
+      "━━━━━━━━━━━━━━━━━━━━",
+      "Vui lòng chọn chức năng"
+    ],
+    "buttons": {
+      "createAccount": "➕ Tạo tài khoản",
+      "addBalance": "💰 Cấp xu",
+      "subtractBalance": "➖ Trừ xu",
+      "checkAccount": "🔎 Kiểm tra tài khoản",
+      "disableAccount": "🔒 Khóa tài khoản",
+      "enableAccount": "🔓 Mở khóa tài khoản",
+      "deleteAccount": "🗑 Xóa tài khoản",
+      "listAccounts": "📋 Danh sách tài khoản",
+      "back": "⬅️ Về Admin Panel",
+      "cancel": "❌ Hủy"
+    },
+    "messages": {
+      "forbidden": ["❌ BẠN KHÔNG CÓ QUYỀN TRUY CẬP"],
+      "cancelled": ["ĐÃ HỦY THAO TÁC"],
+      "enterKey": ["✏️ Nhập KEY tài khoản"],
+      "enterNewKey": ["✏️ Nhập KEY cho tài khoản mới"],
+      "enterPin": ["✏️ Nhập PIN, hoặc nhập SKIP nếu không dùng PIN"],
+      "enterBalance": ["💰 Nhập số xu ban đầu"],
+      "enterAmount": ["💰 Nhập số xu"],
+      "invalidAmount": ["❌ SỐ XU KHÔNG HỢP LỆ"],
+      "accountExists": ["❌ KEY ĐÃ TỒN TẠI"],
+      "accountNotFound": ["❌ TÀI KHOẢN KHÔNG TỒN TẠI"],
+      "createSuccess": [
+        "✅ ĐÃ TẠO TÀI KHOẢN",
+        "",
+        "🔑 KEY: {key}",
+        "{pinLine}",
+        "💰 Số dư: {balance} xu"
+      ],
+      "balanceUpdated": [
+        "✅ CẬP NHẬT SỐ DƯ THÀNH CÔNG",
+        "",
+        "🔑 KEY: {key}",
+        "💰 Số dư mới: {balance} xu"
+      ],
+      "accountInfo": [
+        "📌 THÔNG TIN TÀI KHOẢN",
+        "━━━━━━━━━━━━━━━━━━━━",
+        "🔑 KEY: {key}",
+        "{pinLine}",
+        "👤 Tên tài khoản: {accountName}",
+        "💰 Số dư: {balance} xu",
+        "📍 Trạng thái: {status}"
+      ],
+      "statusUpdated": [
+        "✅ CẬP NHẬT TRẠNG THÁI THÀNH CÔNG",
+        "",
+        "🔑 KEY: {key}",
+        "📍 Trạng thái: {status}"
+      ],
+      "deleteSuccess": ["✅ ĐÃ XÓA TÀI KHOẢN", "", "🔑 KEY: {key}"],
+      "listEmpty": ["📋 CHƯA CÓ TÀI KHOẢN"],
+      "listHeader": ["📋 DANH SÁCH TÀI KHOẢN", "━━━━━━━━━━━━━━━━━━━━"],
+      "listItem": ["{index}. {key}{pinInline} | {balance} xu | {status}"]
+    }
+  }
+}
